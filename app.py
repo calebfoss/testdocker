@@ -1,4 +1,7 @@
 print('Hello world!')
+with open('helloworld.txt', 'w') as fs:
+	fs.write('Hello world!')
+	fs.close()
 
 # from flask import Flask
 # from redis import Redis, RedisError
